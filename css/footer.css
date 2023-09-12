@@ -1,0 +1,90 @@
+div.wrapper > footer {
+  width: 100%;
+  height: auto;
+}
+
+div.wrapper > footer > div.footer-up {
+  width: 100%;
+  height: 92px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+div.wrapper > footer > div.footer-up > p {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 92px;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+div.wrapper > footer > div.footer-up > img {
+  width: 178.33px;
+  height: 60.7px;
+  margin-top: 16px;
+  margin-left: 820px;
+}
+
+div.wrapper > footer > div.footer-bottom {
+  width: 100%;
+  height: 60.7px;
+}
+
+div.wrapper > footer > div.footer-bottom > a {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding-right: 22px;
+  line-height: 60.7px;
+  margin-left: 25px;
+  border-right: 1px solid #d9d9d9;
+}
+
+div.wrapper > footer > div.footer-bottom > a:hover {
+  color: #1428a0;
+}
+
+div.wrapper > footer > div.footer-bottom > ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 539.92px;
+  height: 60.7px;
+}
+
+div.wrapper > footer > div.footer-bottom > ul > li {
+  display: inline-block;
+  margin: 0 11px;
+  font-size: 11px;
+  line-height: 60.7px;
+}
+
+div.wrapper > footer > div.footer-bottom > ul > li > A {
+  color: black;
+}
+
+div.wrapper > footer > div.footer-bottom > p.p2-foot {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 11px;
+  line-height: 60.7px;
+  margin-left: 360px;
+}
+
+div.wrapper > footer > div.footer-bottom > ul.ul2-foot {
+  display: inline-block;
+  vertical-align: top;
+  width: 184.92px;
+  height: 60.7px;
+  margin-left: 8px;
+}
+
+div.wrapper > footer > div.footer-bottom > ul.ul2-foot > li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2px;
+  height: 60.7px;
+}
+
+div.wrapper > footer > div.footer-bottom > ul.ul2-foot > li > a > i {
+  font-size: 20px;
+  line-height: 60.7px;
+}

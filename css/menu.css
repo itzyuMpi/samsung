@@ -1,0 +1,123 @@
+/* start menu */
+
+div.wrapper > div.menu {
+  width: 100%;
+  height: 75px;
+  text-align: center;
+}
+
+div.wrapper > div.menu > div.m-left {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 75px;
+}
+div.wrapper > div.menu > div.m-left > div.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 75px;
+  text-align: left;
+}
+
+div.wrapper > div.menu > div.m-left > div.logo > img {
+  width: 113px;
+  height: 30px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+div.wrapper > div.menu > div.m-left > div.l-menu {
+  display: inline-block;
+  vertical-align: top;
+  width: 700px;
+  height: 75px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+div.wrapper > div.menu > div.m-left > div.l-menu > nav {
+  width: 100%;
+  height: 75px;
+}
+
+div.wrapper > div.menu > div.m-left > div.l-menu > nav > ul {
+  width: inherit;
+  height: inherit;
+  margin-left: 10px;
+}
+
+div.wrapper > div.menu > div.m-left > div.l-menu > nav > ul > li {
+  display: inline-block;
+  line-height: 75px;
+}
+
+div.wrapper > div.menu > div.m-left > div.l-menu > nav > ul > li > a {
+  color: black;
+  font-size: 13px;
+  padding: 7px 7px;
+}
+
+div.wrapper > div.menu > div.m-left > div.l-menu > nav > ul > li:hover>a {
+  color: white;
+  background-color: black;
+  padding: 7px 7px;
+  border-radius: 15px;
+}
+div.wrapper > div.menu > div.m-right {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 75px;
+  margin-left: 64px;
+}
+
+div.wrapper > div.menu > div.m-right > div.r-menu {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 75px;
+}
+
+div.wrapper > div.menu > div.m-right > div.r-menu > nav {
+  width: 100%;
+  height: 75px;
+}
+
+div.wrapper > div.menu > div.m-right > div.r-menu > nav > ul {
+  width: inherit;
+  height: inherit;
+}
+
+div.wrapper > div.menu > div.m-right > div.r-menu > nav > ul > li {
+  display: inline-block;
+  line-height: 75px;
+}
+
+div.wrapper > div.menu > div.m-right > div.r-menu > nav > ul > li > a {
+  color: black;
+  font-size: 13px;
+  padding: 7px 7px;
+}
+
+div.wrapper > div.menu > div.m-right > div.r-menu > nav > ul > li:hover>a {
+  color: white;
+  background-color: black;
+  padding: 7px 7px;
+  border-radius: 15px;
+}
+div.wrapper > div.menu > div.m-right > div.l-icon {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 75px;
+  margin-left: 10px;
+}
+
+div.wrapper > div.menu > div.m-right > div.l-icon > i {
+  line-height: 75px;
+  font-size: 22px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* end menu */

@@ -1,0 +1,183 @@
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9{
+    width: 1062px;
+    height: 398px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    left: 234px;
+    transform: rotatex(90deg);
+    transform-origin: top;
+    transition: 300ms;
+    opacity: 1;
+  }
+
+  div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1):hover
+  > div.submenu9 {
+  display: block;
+  opacity: 1;
+  transform: rotatex(0deg);
+}
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 208px;
+  height: 345px;
+  text-align: left;
+}
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div {
+  line-height: 45px;
+  transform: translatey(-15px);
+  opacity: 0;
+  transition: 600ms;
+  transition-delay: 100ms;
+}
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1):hover
+  > div.submenu9
+  > div {
+  line-height: 45px;
+  transform: translatey(0px);
+  opacity: 1;
+}
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div
+  > b {
+  font-size: 14.5px;
+  margin-left: 20px;
+}
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div
+  > ul {
+  width: 100%;
+  height: fit-content;
+  line-height: 31px;
+  margin-left: 20px;
+  }
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div
+  > ul
+  > li {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div
+  > ul
+  > li
+  > a {
+  color: rgb(92, 92, 92);
+  font-size: 11.4px;
+}
+
+div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div
+  > ul
+  > li:hover
+  > a {
+  font-weight: bold;
+  font-size: 11.4px;
+  }
+
+  div.wrapper
+  > div.menu
+  > div.m-right
+  > div.r-menu
+  > nav
+  > ul
+  > li:nth-of-type(1)
+  > div.submenu9
+  > div:nth-of-type(1)
+  > ul
+  > li:nth-of-type(1)
+  > p{
+    display: inline-block;
+  color: white;
+  background-color: #2189ff;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 10px;
+  text-shadow: 0 0 10px rgb(116, 116, 116);
+  padding: 3px 5px;
+  border-radius: 20px;
+  margin-left: 3px;
+  }

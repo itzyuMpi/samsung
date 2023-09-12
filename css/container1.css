@@ -1,0 +1,198 @@
+/* container 1 */
+
+div.wrapper > div.container1 {
+  width: 100%;
+  height: auto;
+  margin-top: 45px;
+}
+
+/* start header container 1 */
+
+div.wrapper > div.container1 > div.h-con1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+div.wrapper > div.container1 > div.h-con1 > h1 {
+  font-size: 36px;
+  color: black;
+}
+
+/* end header container 1 */
+
+/* start menu container 1 */
+
+div.wrapper > div.container1 > div.menu-con1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+div.wrapper > div.container1 > div.menu-con1 > nav {
+  width: inherit;
+  height: inherit;
+}
+
+div.wrapper > div.container1 > div.menu-con1 > nav > ul {
+  width: inherit;
+  height: inherit;
+}
+
+div.wrapper > div.container1 > div.menu-con1 > nav > ul > li {
+  display: inline-block;
+  vertical-align: top;
+
+  margin: 0 19px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div.wrapper > div.container1 > div.menu-con1 > nav > ul > li > a {
+  color: black;
+  padding: 5px 0;
+  transition: all 200ms linear;
+}
+
+div.wrapper > div.container1 > div.menu-con1 > nav > ul > li > a:hover {
+  color: #555555;
+  padding: 5px 0;
+}
+
+/* end menu container 1 */
+
+/* start items container 1 */
+
+div.wrapper > div.container1 > div.item-con1 {
+  width: 100%;
+  height: 674px;
+  text-align: center;
+}
+
+div.wrapper > div.container1 > div.item-con1 > div.item1-con1,
+div.wrapper > div.container1 > div.item-con1 > div.item2-con1 {
+  width: 100%;
+  height: 337px;
+}
+
+div.wrapper > div.container1 > div.item-con1 > div.item1-con1 > div,
+div.wrapper > div.container1 > div.item-con1 > div.item2-con1 > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 424px;
+  height: 313px;
+  border-radius: 20px;
+  margin: 0 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+div.special,
+div.special2 {
+  position: relative;
+  cursor: pointer;
+}
+
+div.special > p.new-con1 {
+  display: inline-block;
+  color: white;
+  background-color: #2189ff;
+  font-size: 10.5px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgb(116, 116, 116);
+  padding: 4px 6.5px;
+  border-radius: 20px;
+  position: absolute;
+  left: 17px;
+  top: 23px;
+}
+
+div.special > a,
+a.buy-con1 {
+  color: white;
+  background-color: black;
+  font-size: 13px;
+  width: 130px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  position: absolute;
+  left: calc(50% - 130px / 2);
+  transition: 450ms;
+  transform: translatey(-30px);
+  opacity: 0;
+}
+
+a.buy-con1 {
+  width: 90px;
+  padding: 10px 17px;
+  left: calc(50% - 90px / 2);
+}
+div.special > a:hover,
+a.buy-con1:hover {
+  background-color: #555555;
+  color: #eeeeee;
+  transition: 300ms;
+}
+
+div.special:hover > a,
+div.special2:hover > a.buy-con1 {
+  transform: translatey(-48px);
+  opacity: 1;
+}
+
+div.special > p.p-con1,
+div.special2 > p.p-con1 {
+  transform: translatey(0px);
+  opacity: 1;
+  transition: 300ms;
+}
+
+div.special:hover > p.p-con1,
+div.special2:hover > p.p-con1 {
+  transform: translatey(-20px);
+  opacity: 0;
+}
+div.con1-img {
+  display: inline-block;
+  width: 191px;
+  height: 143px;
+  margin-top: 40px;
+  overflow: hidden;
+  transition: 400ms;
+}
+
+div.con1-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.item1-con1 > div:hover > div.con1-img,
+div.item2-con1 > div:hover > div.con1-img {
+  transform: scale(1.06, 1.06);
+}
+
+div.item1-con1 > div > h2,
+div.item2-con1 > div > h2 {
+  font-size: 15.5px;
+  margin-top: 26px;
+}
+
+div.item1-con1 > div > p.p-con1,
+div.item2-con1 > div > p.p-con1 {
+  font-size: 12px;
+  margin-top: 15px;
+  font-weight: 100;
+  line-height: 27px;
+}
+
+div.item1-con1 > div > p.p-con1 > span,
+div.item2-con1 > div > p.p-con1 > span {
+  font-size: 13.5px;
+  font-weight: bold;
+  color: #2189ff;
+}
+
+/* end items container 1 */

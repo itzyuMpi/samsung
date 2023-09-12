@@ -1,0 +1,50 @@
+div.wrapper > div.container6 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+div.wrapper > div.container6 > i {
+  font-size: 8px;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+  top: 1px;
+}
+
+div.wrapper > div.container6 > i.icon2 {
+  font-size: 8px;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+  top: 554px;
+}
+
+div.wrapper > div.container6 > p {
+  margin-bottom: 18px;
+  color: #363636;
+  font-size: 14px;
+  line-height: 23px;
+  padding: 0 70px;
+}
+
+div.wrapper > div.container6 > p > a {
+  color: #20a2ff;
+}
+div.wrapper > div.container6 > p.h-con6 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+div.wrapper > div.container6 > p.h2-con6 {
+  padding-left: 40px;
+  line-height: 18px;
+  margin-bottom: 11px;
+}

@@ -1,0 +1,38 @@
+/* start container4 */
+
+div.wrapper > div.container4 {
+  width: 100%;
+  height: 203px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+div.wrapper > div.container4 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.wrapper > div.container4 > a {
+  font-size: 12.5px;
+  background-color: black;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 20px;
+  transition: 300ms;
+  position: absolute;
+  left: 595px;
+  bottom: 16px;
+}
+
+div.wrapper > div.container4 > a:hover {
+  font-size: 12.5px;
+  background-color: #555555;
+  color: #eeeeee;
+  padding: 12px 25px;
+  border-radius: 20px;
+}
+
+div.wrapper > div.container4 > a > i {
+  margin-left: 5px;
+}
